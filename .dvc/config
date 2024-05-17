@@ -1,0 +1,4 @@
+[core]
+    remote = lab4
+['remote "lab4"']
+    url = gdrive://1kiFikCPhneBW6azFyTzfoHKy19eTZ41W
