@@ -9,4 +9,4 @@ df = pd.DataFrame(titanic.data, columns=titanic.feature_names)
 modified_df = df[['pclass', 'sex', 'age']].copy()
 modified_df['Class'] = modified_df['pclass'].apply(lambda x: 'First' if x == 1 else ('Second' if x == 2 else 'Third'))
 
-modified_df.to_csv(r'C:\Users\kovj\Desktop\mlopshw1\lab4\modified_titanic.csv', index=False)
+modified_df.to_csv(r'C:\Users\kovj\Desktop\mlopshw1\lab4\modified_titanicv2.csv', index=False)

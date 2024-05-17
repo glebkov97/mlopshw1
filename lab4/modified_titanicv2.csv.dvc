@@ -1,0 +1,5 @@
+outs:
+- md5: 7db093f67fa8ea7c1735eda8359c76d6
+  size: 24998
+  hash: md5
+  path: modified_titanicv2.csv
